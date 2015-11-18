@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47D825691BFCF05B0072AEC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D825681BFCF05B0072AEC9 /* AppDelegate.swift */; };
+		47D8256B1BFCF05B0072AEC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8256A1BFCF05B0072AEC9 /* ViewController.swift */; };
+		47D8256E1BFCF05B0072AEC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D8256C1BFCF05B0072AEC9 /* Main.storyboard */; };
+		47D825701BFCF05B0072AEC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D8256F1BFCF05B0072AEC9 /* Assets.xcassets */; };
+		47D825731BFCF05B0072AEC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D825711BFCF05B0072AEC9 /* LaunchScreen.storyboard */; };
+		47D8257E1BFCF05B0072AEC9 /* DeliApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8257D1BFCF05B0072AEC9 /* DeliApp2Tests.swift */; };
+		47D825891BFCF05B0072AEC9 /* DeliApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D825881BFCF05B0072AEC9 /* DeliApp2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47D8257A1BFCF05B0072AEC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D8255D1BFCF05B0072AEC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D825641BFCF05B0072AEC9;
+			remoteInfo = DeliApp2;
+		};
+		47D825851BFCF05B0072AEC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D8255D1BFCF05B0072AEC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D825641BFCF05B0072AEC9;
+			remoteInfo = DeliApp2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47D825651BFCF05B0072AEC9 /* DeliApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D825681BFCF05B0072AEC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47D8256A1BFCF05B0072AEC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47D8256D1BFCF05B0072AEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47D8256F1BFCF05B0072AEC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47D825721BFCF05B0072AEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47D825741BFCF05B0072AEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D825791BFCF05B0072AEC9 /* DeliApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D8257D1BFCF05B0072AEC9 /* DeliApp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliApp2Tests.swift; sourceTree = "<group>"; };
+		47D8257F1BFCF05B0072AEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D825841BFCF05B0072AEC9 /* DeliApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D825881BFCF05B0072AEC9 /* DeliApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliApp2UITests.swift; sourceTree = "<group>"; };
+		47D8258A1BFCF05B0072AEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47D825621BFCF05B0072AEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D825761BFCF05B0072AEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D825811BFCF05B0072AEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47D8255C1BFCF05B0072AEC9 = {
+			isa = PBXGroup;
+			children = (
+				47D825671BFCF05B0072AEC9 /* DeliApp2 */,
+				47D8257C1BFCF05B0072AEC9 /* DeliApp2Tests */,
+				47D825871BFCF05B0072AEC9 /* DeliApp2UITests */,
+				47D825661BFCF05B0072AEC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47D825661BFCF05B0072AEC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47D825651BFCF05B0072AEC9 /* DeliApp2.app */,
+				47D825791BFCF05B0072AEC9 /* DeliApp2Tests.xctest */,
+				47D825841BFCF05B0072AEC9 /* DeliApp2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47D825671BFCF05B0072AEC9 /* DeliApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				47D825681BFCF05B0072AEC9 /* AppDelegate.swift */,
+				47D8256A1BFCF05B0072AEC9 /* ViewController.swift */,
+				47D8256C1BFCF05B0072AEC9 /* Main.storyboard */,
+				47D8256F1BFCF05B0072AEC9 /* Assets.xcassets */,
+				47D825711BFCF05B0072AEC9 /* LaunchScreen.storyboard */,
+				47D825741BFCF05B0072AEC9 /* Info.plist */,
+			);
+			path = DeliApp2;
+			sourceTree = "<group>";
+		};
+		47D8257C1BFCF05B0072AEC9 /* DeliApp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				47D8257D1BFCF05B0072AEC9 /* DeliApp2Tests.swift */,
+				47D8257F1BFCF05B0072AEC9 /* Info.plist */,
+			);
+			path = DeliApp2Tests;
+			sourceTree = "<group>";
+		};
+		47D825871BFCF05B0072AEC9 /* DeliApp2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				47D825881BFCF05B0072AEC9 /* DeliApp2UITests.swift */,
+				47D8258A1BFCF05B0072AEC9 /* Info.plist */,
+			);
+			path = DeliApp2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47D825641BFCF05B0072AEC9 /* DeliApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D8258D1BFCF05B0072AEC9 /* Build configuration list for PBXNativeTarget "DeliApp2" */;
+			buildPhases = (
+				47D825611BFCF05B0072AEC9 /* Sources */,
+				47D825621BFCF05B0072AEC9 /* Frameworks */,
+				47D825631BFCF05B0072AEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeliApp2;
+			productName = DeliApp2;
+			productReference = 47D825651BFCF05B0072AEC9 /* DeliApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47D825781BFCF05B0072AEC9 /* DeliApp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D825901BFCF05B0072AEC9 /* Build configuration list for PBXNativeTarget "DeliApp2Tests" */;
+			buildPhases = (
+				47D825751BFCF05B0072AEC9 /* Sources */,
+				47D825761BFCF05B0072AEC9 /* Frameworks */,
+				47D825771BFCF05B0072AEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D8257B1BFCF05B0072AEC9 /* PBXTargetDependency */,
+			);
+			name = DeliApp2Tests;
+			productName = DeliApp2Tests;
+			productReference = 47D825791BFCF05B0072AEC9 /* DeliApp2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47D825831BFCF05B0072AEC9 /* DeliApp2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D825931BFCF05B0072AEC9 /* Build configuration list for PBXNativeTarget "DeliApp2UITests" */;
+			buildPhases = (
+				47D825801BFCF05B0072AEC9 /* Sources */,
+				47D825811BFCF05B0072AEC9 /* Frameworks */,
+				47D825821BFCF05B0072AEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D825861BFCF05B0072AEC9 /* PBXTargetDependency */,
+			);
+			name = DeliApp2UITests;
+			productName = DeliApp2UITests;
+			productReference = 47D825841BFCF05B0072AEC9 /* DeliApp2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47D8255D1BFCF05B0072AEC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = EA;
+				TargetAttributes = {
+					47D825641BFCF05B0072AEC9 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					47D825781BFCF05B0072AEC9 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 47D825641BFCF05B0072AEC9;
+					};
+					47D825831BFCF05B0072AEC9 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 47D825641BFCF05B0072AEC9;
+					};
+				};
+			};
+			buildConfigurationList = 47D825601BFCF05B0072AEC9 /* Build configuration list for PBXProject "DeliApp2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47D8255C1BFCF05B0072AEC9;
+			productRefGroup = 47D825661BFCF05B0072AEC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47D825641BFCF05B0072AEC9 /* DeliApp2 */,
+				47D825781BFCF05B0072AEC9 /* DeliApp2Tests */,
+				47D825831BFCF05B0072AEC9 /* DeliApp2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47D825631BFCF05B0072AEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D825731BFCF05B0072AEC9 /* LaunchScreen.storyboard in Resources */,
+				47D825701BFCF05B0072AEC9 /* Assets.xcassets in Resources */,
+				47D8256E1BFCF05B0072AEC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D825771BFCF05B0072AEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D825821BFCF05B0072AEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47D825611BFCF05B0072AEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D8256B1BFCF05B0072AEC9 /* ViewController.swift in Sources */,
+				47D825691BFCF05B0072AEC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D825751BFCF05B0072AEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D8257E1BFCF05B0072AEC9 /* DeliApp2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D825801BFCF05B0072AEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D825891BFCF05B0072AEC9 /* DeliApp2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47D8257B1BFCF05B0072AEC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D825641BFCF05B0072AEC9 /* DeliApp2 */;
+			targetProxy = 47D8257A1BFCF05B0072AEC9 /* PBXContainerItemProxy */;
+		};
+		47D825861BFCF05B0072AEC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D825641BFCF05B0072AEC9 /* DeliApp2 */;
+			targetProxy = 47D825851BFCF05B0072AEC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47D8256C1BFCF05B0072AEC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47D8256D1BFCF05B0072AEC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47D825711BFCF05B0072AEC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47D825721BFCF05B0072AEC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47D8258B1BFCF05B0072AEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47D8258C1BFCF05B0072AEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47D8258E1BFCF05B0072AEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeliApp2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ea.DeliApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47D8258F1BFCF05B0072AEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeliApp2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ea.DeliApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47D825911BFCF05B0072AEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeliApp2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ea.DeliApp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeliApp2.app/DeliApp2";
+			};
+			name = Debug;
+		};
+		47D825921BFCF05B0072AEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeliApp2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ea.DeliApp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeliApp2.app/DeliApp2";
+			};
+			name = Release;
+		};
+		47D825941BFCF05B0072AEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeliApp2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ea.DeliApp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeliApp2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		47D825951BFCF05B0072AEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeliApp2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ea.DeliApp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeliApp2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47D825601BFCF05B0072AEC9 /* Build configuration list for PBXProject "DeliApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D8258B1BFCF05B0072AEC9 /* Debug */,
+				47D8258C1BFCF05B0072AEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D8258D1BFCF05B0072AEC9 /* Build configuration list for PBXNativeTarget "DeliApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D8258E1BFCF05B0072AEC9 /* Debug */,
+				47D8258F1BFCF05B0072AEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47D825901BFCF05B0072AEC9 /* Build configuration list for PBXNativeTarget "DeliApp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D825911BFCF05B0072AEC9 /* Debug */,
+				47D825921BFCF05B0072AEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47D825931BFCF05B0072AEC9 /* Build configuration list for PBXNativeTarget "DeliApp2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D825941BFCF05B0072AEC9 /* Debug */,
+				47D825951BFCF05B0072AEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47D8255D1BFCF05B0072AEC9 /* Project object */;
+}
